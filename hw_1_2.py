@@ -1,10 +1,10 @@
 first_num = float(input('введите перове число: '))
 second_num = float(input('введите второе число: '))
 
-print(first_num + second_num)  # сумма
-print(first_num - second_num)  # разница
-print(first_num * second_num)  # умножение
-print(first_num / second_num)  # деление
-print(first_num // second_num)  # Целочисленное деление
-print(first_num ** second_num)  # Возводим число в степень
-print(first_num % second_num)  # Получение остатка от деления
+print('сумма: ' , first_num + second_num)
+print('разница: ' ,first_num - second_num)
+print('умножение: ' ,first_num * second_num)  #
+print('деление: ' ,first_num / second_num)  #
+print('Целочисленное деление: ' ,first_num // second_num)
+print('Возводим число в степень: ' ,first_num ** second_num)
+print('Получение остатка от деления: ' ,first_num % second_num)
