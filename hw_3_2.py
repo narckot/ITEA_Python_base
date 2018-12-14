@@ -12,7 +12,7 @@ def enter_list():
     my_list = [" "]
     enter_string = "d"
     while enter_string != [""]:
-        enter_string = (input("Введите строку:  ")).lower()
+        enter_string = (input("Введите слвов:  ")).lower()
         if enter_string == "":
             print("----------------------"
                   "\nВы прервали программу!")
